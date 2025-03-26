@@ -12,7 +12,7 @@ from ui_main import Ui_MainWindow
 
 
 # Load error solutions from a JSON file
-with open("../assets/errors_master.json", "r", encoding="utf-8") as f:
+with open("assets/errors_master.json", "r", encoding="utf-8") as f:
     ERROR_SOLUTIONS = json.load(f)
 
 # Worker Classes
@@ -43,7 +43,7 @@ class CBSLogAnalyzer(QMainWindow):
         self.threadpool = QThreadPool()
 
         # Icon
-        self.setWindowIcon(QIcon("../assets/logs.png"))
+        self.setWindowIcon(QIcon("assets/logs.png"))
 
         # Name
         self.setWindowTitle("CBS Parser")
@@ -127,7 +127,8 @@ class CBSLogAnalyzer(QMainWindow):
         if not ctypes.windll.shell32.IsUserAnAdmin():
             QMessageBox.warning(self, "Administrator Required", "This action requires administrator privileges.")
             ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, __file__, None, 1)
-            return  # Exit to avoid running without admin
+            sys.exit()
+            #return  # Exit to avoid running without admin
 
         selected_row = self.ui.logTableWidget.currentRow()
         if selected_row != -1:
