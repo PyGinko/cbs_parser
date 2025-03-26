@@ -12,7 +12,7 @@ from ui_main import Ui_MainWindow
 
 
 # Load error solutions from a JSON file
-with open("errors_master.json", "r", encoding="utf-8") as f:
+with open("../assets/errors_master.json", "r", encoding="utf-8") as f:
     ERROR_SOLUTIONS = json.load(f)
 
 # Worker Classes
@@ -43,7 +43,7 @@ class CBSLogAnalyzer(QMainWindow):
         self.threadpool = QThreadPool()
 
         # Icon
-        self.setWindowIcon(QIcon("logs.png"))
+        self.setWindowIcon(QIcon("../assets/logs.png"))
 
         # Name
         self.setWindowTitle("CBS Parser")
