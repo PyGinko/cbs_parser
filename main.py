@@ -12,7 +12,7 @@ from ui_main import Ui_MainWindow
 
 
 # Load error solutions from a JSON file
-with open("error_solutions.json", "r", encoding="utf-8") as f:
+with open("errors_master.json", "r", encoding="utf-8") as f:
     ERROR_SOLUTIONS = json.load(f)
 
 # Worker Classes
@@ -50,11 +50,20 @@ class CBSLogAnalyzer(QMainWindow):
 
         # Initial State
         self.ui.logTableWidget.setRowCount(0)
+        self.reset_text()
 
         # Connect buttons to functions
         self.ui.loadLogButton.clicked.connect(self.load_cbs_log)
         self.ui.fixIssueButton.clicked.connect(self.apply_fix)
-        self.ui.logTableWidget.itemSelectionChanged.connect(self.display_fix_details)
+        self.ui.logTableWidget.itemSelectionChanged.connect(self.changeText)
+
+    def reset_text(self):
+        self.ui.descriptionText.setText("Select an error...")
+        self.ui.fixText.setText("Select an error...")
+
+    def changeText(self):
+        self.display_fix_details()
+        self.display_desc_details()
 
     def load_cbs_log(self):
         file_path, _ = QFileDialog.getOpenFileName(self, "Open CBS.log File", "", "Log Files (*.log)")
@@ -85,14 +94,31 @@ class CBSLogAnalyzer(QMainWindow):
                     self.ui.logTableWidget.setItem(row_position, 2, QTableWidgetItem(message))
 
         self.ui.logTableWidget.resizeColumnsToContents()
+        self.reset_text()
+        self.ui.pathLine.setText(file_path)
 
     def display_fix_details(self):
         """Displays the solution when an error is selected."""
         selected_row = self.ui.logTableWidget.currentRow()
         if selected_row != -1:
             error_code = self.ui.logTableWidget.item(selected_row, 1).text()
-            fix_message = ERROR_SOLUTIONS.get(error_code, "No solution found.")
-            self.ui.fixText.setText(fix_message)
+            error_details = ERROR_SOLUTIONS.get(error_code, {})
+
+            mitigation_text = error_details.get("mitigation", "No solution found")
+            self.ui.fixText.setText(mitigation_text)
+
+    def display_desc_details(self):
+        selected_row = self.ui.logTableWidget.currentRow()
+        if selected_row != -1:
+            error_code = self.ui.logTableWidget.item(selected_row, 1).text()
+            error_details = ERROR_SOLUTIONS.get(error_code, {})
+
+            message_text = error_details.get("message", "")
+            description_text = error_details.get("description", "")
+            updated_text = "No Information found"
+            if message_text or description_text:
+                updated_text = f"{message_text}<br>{description_text}"
+            self.ui.descriptionText.setText(updated_text)
 
     def apply_fix(self):
         """Runs the fix when clicking 'Fix Selected Issue'."""

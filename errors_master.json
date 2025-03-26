@@ -1,0 +1,1857 @@
+{
+    "0x80243FFF": {
+        "message": "WU_E_AUCLIENT_UNEXPECTED",
+        "description": "There was a user interface error not covered by another WU_E_AUCLIENT_* error code.",
+        "mitigation": ""
+    },
+    "0x8024A000": {
+        "message": "WU_E_AU_NOSERVICE",
+        "description": "Automatic Updates was unable to service incoming requests.",
+        "mitigation": ""
+    },
+    "0x8024A002": {
+        "message": "WU_E_AU_NONLEGACYSERVER",
+        "description": "The old version of the Automatic Updates client has stopped because the WSUS server has been upgraded.",
+        "mitigation": ""
+    },
+    "0x8024A003": {
+        "message": "WU_E_AU_LEGACYCLIENTDISABLED",
+        "description": "The old version of the Automatic Updates client was disabled.",
+        "mitigation": ""
+    },
+    "0x8024A004": {
+        "message": "WU_E_AU_PAUSED",
+        "description": "Automatic Updates was unable to process incoming requests because it was paused.",
+        "mitigation": ""
+    },
+    "0x8024A005": {
+        "message": "WU_E_AU_NO_REGISTERED_SERVICE",
+        "description": "No unmanaged service is registered with AU.",
+        "mitigation": ""
+    },
+    "0x8024AFFF": {
+        "message": "WU_E_AU_UNEXPECTED",
+        "description": "An Automatic Updates error not covered by another WU_E_AU* code.",
+        "mitigation": ""
+    },
+    "0x80243001": {
+        "message": "WU_E_INSTALLATION_RESULTS_UNKNOWN_VERSION",
+        "description": "The results of download and installation couldn't be read from the registry due to an unrecognized data format version.",
+        "mitigation": ""
+    },
+    "0x80243002": {
+        "message": "WU_E_INSTALLATION_RESULTS_INVALID_DATA",
+        "description": "The results of download and installation couldn't be read from the registry due to an invalid data format.",
+        "mitigation": ""
+    },
+    "0x80243003": {
+        "message": "WU_E_INSTALLATION_RESULTS_NOT_FOUND",
+        "description": "The results of download and installation aren't available; the operation may have failed to start.",
+        "mitigation": ""
+    },
+    "0x80243004": {
+        "message": "WU_E_TRAYICON_FAILURE",
+        "description": "A failure occurred when trying to create an icon in the taskbar notification area.",
+        "mitigation": ""
+    },
+    "0x80243FFD": {
+        "message": "WU_E_NON_UI_MODE",
+        "description": "Unable to show UI when in non-UI mode; Windows Update client UI modules may not be installed.",
+        "mitigation": ""
+    },
+    "0x80243FFE": {
+        "message": "WU_E_WUCLTUI_UNSUPPORTED_VERSION",
+        "description": "Unsupported version of Windows Update client UI exported functions.",
+        "mitigation": ""
+    },
+    "0x8024043D": {
+        "message": "WU_E_SERVICEPROP_NOTAVAIL",
+        "description": "The requested service property isn't available.",
+        "mitigation": ""
+    },
+    "0x80249001": {
+        "message": "WU_E_INVENTORY_PARSEFAILED",
+        "description": "Parsing of the rule file failed.",
+        "mitigation": ""
+    },
+    "0x80249002": {
+        "message": "WU_E_INVENTORY_GET_INVENTORY_TYPE_FAILED",
+        "description": "Failed to get the requested inventory type from the server.",
+        "mitigation": ""
+    },
+    "0x80249003": {
+        "message": "WU_E_INVENTORY_RESULT_UPLOAD_FAILED",
+        "description": "Failed to upload inventory result to the server.",
+        "mitigation": ""
+    },
+    "0x80249004": {
+        "message": "WU_E_INVENTORY_UNEXPECTED",
+        "description": "There was an inventory error not covered by another error code.",
+        "mitigation": ""
+    },
+    "0x80249005": {
+        "message": "WU_E_INVENTORY_WMI_ERROR",
+        "description": "A WMI error occurred when enumerating the instances for a particular class.",
+        "mitigation": ""
+    },
+    "0x8024E001": {
+        "message": "WU_E_EE_UNKNOWN_EXPRESSION",
+        "description": "An expression evaluator operation couldn't be completed because an expression was unrecognized.",
+        "mitigation": ""
+    },
+    "0x8024E002": {
+        "message": "WU_E_EE_INVALID_EXPRESSION",
+        "description": "An expression evaluator operation couldn't be completed because an expression was invalid.",
+        "mitigation": ""
+    },
+    "0x8024E003": {
+        "message": "WU_E_EE_MISSING_METADATA",
+        "description": "An expression evaluator operation couldn't be completed because an expression contains an incorrect number of metadata nodes.",
+        "mitigation": ""
+    },
+    "0x8024E004": {
+        "message": "WU_E_EE_INVALID_VERSION",
+        "description": "An expression evaluator operation couldn't be completed because the version of the serialized expression data is invalid.",
+        "mitigation": ""
+    },
+    "0x8024E005": {
+        "message": "WU_E_EE_NOT_INITIALIZED",
+        "description": "The expression evaluator couldn't be initialized.",
+        "mitigation": ""
+    },
+    "0x8024E006": {
+        "message": "WU_E_EE_INVALID_ATTRIBUTEDATA",
+        "description": "An expression evaluator operation couldn't be completed because there was an invalid attribute.",
+        "mitigation": ""
+    },
+    "0x8024E007": {
+        "message": "WU_E_EE_CLUSTER_ERROR",
+        "description": "An expression evaluator operation couldn't be completed because the cluster state of the computer couldn't be determined.",
+        "mitigation": ""
+    },
+    "0x8024EFFF": {
+        "message": "WU_E_EE_UNEXPECTED",
+        "description": "There was an expression evaluator error not covered by another WU_E_EE_* error code.",
+        "mitigation": ""
+    },
+    "0x80247001": {
+        "message": "WU_E_OL_INVALID_SCANFILE",
+        "description": "An operation couldn't be completed because the scan package was invalid.",
+        "mitigation": ""
+    },
+    "0x80247002": {
+        "message": "WU_E_OL_NEWCLIENT_REQUIRED",
+        "description": "An operation couldn't be completed because the scan package requires a greater version of the Windows Update Agent.",
+        "mitigation": ""
+    },
+    "0x80247FFF": {
+        "message": "WU_E_OL_UNEXPECTED",
+        "description": "Search using the scan package failed.",
+        "mitigation": ""
+    },
+    "0x8024F001": {
+        "message": "WU_E_REPORTER_EVENTCACHECORRUPT",
+        "description": "The event cache file was defective.",
+        "mitigation": ""
+    },
+    "0x8024F002": {
+        "message": "WU_E_REPORTER_EVENTNAMESPACEPARSEFAILED",
+        "description": "The XML in the event namespace descriptor couldn't be parsed.",
+        "mitigation": ""
+    },
+    "0x8024F003": {
+        "message": "WU_E_INVALID_EVENT",
+        "description": "The XML in the event namespace descriptor couldn't be parsed.",
+        "mitigation": ""
+    },
+    "0x8024F004": {
+        "message": "WU_E_SERVER_BUSY",
+        "description": "The server rejected an event because the server was too busy.",
+        "mitigation": ""
+    },
+    "0x8024FFFF": {
+        "message": "WU_E_REPORTER_UNEXPECTED",
+        "description": "There was a reporter error not covered by another error code.",
+        "mitigation": ""
+    },
+    "0x80245001": {
+        "message": "WU_E_REDIRECTOR_LOAD_XML",
+        "description": "The redirector XML document couldn't be loaded into the DOM class.",
+        "mitigation": ""
+    },
+    "0x80245002": {
+        "message": "WU_E_REDIRECTOR_S_FALSE",
+        "description": "The redirector XML document is missing some required information.",
+        "mitigation": ""
+    },
+    "0x80245003": {
+        "message": "WU_E_REDIRECTOR_ID_SMALLER",
+        "description": "The redirectorId in the downloaded redirector cab is less than in the cached cab.",
+        "mitigation": ""
+    },
+    "0x80245FFF": {
+        "message": "WU_E_REDIRECTOR_UNEXPECTED",
+        "description": "The redirector failed for reasons not covered by another WU_E_REDIRECTOR_* error code.",
+        "mitigation": ""
+    },
+    "0x80244000": {
+        "message": "WU_E_PT_SOAPCLIENT_BASE",
+        "description": "WU_E_PT_SOAPCLIENT_* error codes map to the SOAPCLIENT_ERROR enum of the ATL Server Library.",
+        "mitigation": ""
+    },
+    "0x80244001": {
+        "message": "WU_E_PT_SOAPCLIENT_INITIALIZE",
+        "description": "Same as SOAPCLIENT_INITIALIZE_ERROR - initialization of the SOAP client failed possibly because of an MSXML installation failure.",
+        "mitigation": ""
+    },
+    "0x80244002": {
+        "message": "WU_E_PT_SOAPCLIENT_OUTOFMEMORY",
+        "description": "Same as SOAPCLIENT_OUTOFMEMORY - SOAP client failed because it ran out of memory.",
+        "mitigation": ""
+    },
+    "0x80244003": {
+        "message": "WU_E_PT_SOAPCLIENT_GENERATE",
+        "description": "Same as SOAPCLIENT_GENERATE_ERROR - SOAP client failed to generate the request.",
+        "mitigation": ""
+    },
+    "0x80244004": {
+        "message": "WU_E_PT_SOAPCLIENT_CONNECT",
+        "description": "Same as SOAPCLIENT_CONNECT_ERROR - SOAP client failed to connect to the server.",
+        "mitigation": ""
+    },
+    "0x80244005": {
+        "message": "WU_E_PT_SOAPCLIENT_SEND",
+        "description": "Same as SOAPCLIENT_SEND_ERROR - SOAP client failed to send a message for reasons of WU_E_WINHTTP_* error codes.",
+        "mitigation": ""
+    },
+    "0x80244006": {
+        "message": "WU_E_PT_SOAPCLIENT_SERVER",
+        "description": "Same as SOAPCLIENT_SERVER_ERROR - SOAP client failed because there was a server error.",
+        "mitigation": ""
+    },
+    "0x80244008": {
+        "message": "WU_E_PT_SOAPCLIENT_PARSEFAULT",
+        "description": "Same as SOAPCLIENT_PARSEFAULT_ERROR - SOAP client failed to parse a SOAP fault.",
+        "mitigation": ""
+    },
+    "0x80244009": {
+        "message": "WU_E_PT_SOAPCLIENT_READ",
+        "description": "Same as SOAPCLIENT_READ_ERROR - SOAP client failed while reading the response from the server.",
+        "mitigation": ""
+    },
+    "x8024400A": {
+        "message": "WU_E_PT_SOAPCLIENT_PARSE",
+        "description": "Same as SOAPCLIENT_PARSE_ERROR - SOAP client failed to parse the response from the server.",
+        "mitigation": ""
+    },
+    "0x8024400B": {
+        "message": "WU_E_PT_SOAP_VERSION",
+        "description": "Same as SOAP_E_VERSION_MISMATCH - SOAP client found an unrecognizable namespace for the SOAP envelope.",
+        "mitigation": ""
+    },
+    "0x8024400C": {
+        "message": "WU_E_PT_SOAP_MUST_UNDERSTAND",
+        "description": "Same as SOAP_E_MUST_UNDERSTAND - SOAP client was unable to understand a header.",
+        "mitigation": ""
+    },
+    "0x8024400D": {
+        "message": "WU_E_PT_SOAP_CLIENT",
+        "description": "Same as SOAP_E_CLIENT - SOAP client found the message was malformed; fix before resending.",
+        "mitigation": ""
+    },
+    "0x8024400E": {
+        "message": "WU_E_PT_SOAP_SERVER",
+        "description": "Same as SOAP_E_SERVER - The SOAP message couldn't be processed due to a server error; resend later.",
+        "mitigation": ""
+    },
+    "0x8024400F": {
+        "message": "WU_E_PT_WMI_ERROR",
+        "description": "There was an unspecified Windows Management Instrumentation (WMI) error.",
+        "mitigation": ""
+    },
+    "0x80244010": {
+        "message": "WU_E_PT_EXCEEDED_MAX_SERVER_TRIPS",
+        "description": "The number of round trips to the server exceeded the maximum limit.",
+        "mitigation": ""
+    },
+    "0x80244011": {
+        "message": "WU_E_PT_SUS_SERVER_NOT_SET",
+        "description": "WUServer policy value is missing in the registry.",
+        "mitigation": ""
+    },
+    "0x80244012": {
+        "message": "WU_E_PT_DOUBLE_INITIALIZATION",
+        "description": "Initialization failed because the object was already initialized.",
+        "mitigation": ""
+    },
+    "0x80244013": {
+        "message": "WU_E_PT_INVALID_COMPUTER_NAME",
+        "description": "The computer name couldn't be determined.",
+        "mitigation": ""
+    },
+    "0x80244015": {
+        "message": "WU_E_PT_REFRESH_CACHE_REQUIRED",
+        "description": "The reply from the server indicates that the server was changed or the cookie was invalid; refresh the state of the internal cache and retry.",
+        "mitigation": ""
+    },
+    "0x80244016": {
+        "message": "WU_E_PT_HTTP_STATUS_BAD_REQUEST",
+        "description": "Same as HTTP status 400 - the server couldn't process the request due to invalid syntax.",
+        "mitigation": ""
+    },
+    "0x80244017": {
+        "message": "WU_E_PT_HTTP_STATUS_DENIED",
+        "description": "Same as HTTP status 401 - the requested resource requires user authentication.",
+        "mitigation": ""
+    },
+    "0x80244019": {
+        "message": "WU_E_PT_HTTP_STATUS_NOT_FOUND",
+        "description": "Same as HTTP status 404 - the server can't find the requested URI (Uniform Resource Identifier).",
+        "mitigation": ""
+    },
+    "0x8024401A": {
+        "message": "WU_E_PT_HTTP_STATUS_BAD_METHOD",
+        "description": "Same as HTTP status 405 - the HTTP method isn't allowed.",
+        "mitigation": ""
+    },
+    "0x8024401C": {
+        "message": "WU_E_PT_HTTP_STATUS_REQUEST_TIMEOUT",
+        "description": "Same as HTTP status 408 - the server timed out waiting for the request.",
+        "mitigation": ""
+    },
+    "0x8024401D": {
+        "message": "WU_E_PT_HTTP_STATUS_CONFLICT",
+        "description": "Same as HTTP status 409 - the request wasn't completed due to a conflict with the current state of the resource.",
+        "mitigation": ""
+    },
+    "0x8024401E": {
+        "message": "WU_E_PT_HTTP_STATUS_GONE",
+        "description": "Same as HTTP status 410 - requested resource is no longer available at the server.",
+        "mitigation": ""
+    },
+    "0x8024401F": {
+        "message": "WU_E_PT_HTTP_STATUS_SERVER_ERROR",
+        "description": "Same as HTTP status 500 - an error internal to the server prevented fulfilling the request.",
+        "mitigation": ""
+    },
+    "0x80244020": {
+        "message": "WU_E_PT_HTTP_STATUS_NOT_SUPPORTED",
+        "description": "Same as HTTP status 500 - server doesn't support the functionality required to fulfill the request.",
+        "mitigation": ""
+    },
+    "0x80244021": {
+        "message": "WU_E_PT_HTTP_STATUS_BAD_GATEWAY",
+        "description": "Same as HTTP status 502 - the server while acting as a gateway or a proxy received an invalid response from the upstream server it accessed in attempting to fulfill the request.",
+        "mitigation": ""
+    },
+    "0x80244023": {
+        "message": "WU_E_PT_HTTP_STATUS_GATEWAY_TIMEOUT",
+        "description": "Same as HTTP status 503 - the request was timed out waiting for a gateway.",
+        "mitigation": ""
+    },
+    "0x80244024": {
+        "message": "WU_E_PT_HTTP_STATUS_VERSION_NOT_SUP",
+        "description": "Same as HTTP status 505 - the server doesn't support the HTTP protocol version used for the request.",
+        "mitigation": ""
+    },
+    "0x80244025": {
+        "message": "WU_E_PT_FILE_LOCATIONS_CHANGED",
+        "description": "Operation failed due to a changed file location; refresh internal state and resend.",
+        "mitigation": ""
+    },
+    "0x80244026": {
+        "message": "WU_E_PT_REGISTRATION_NOT_SUPPORTED",
+        "description": "Operation failed because Windows Update Agent doesn't support registration with a non-WSUS server.",
+        "mitigation": ""
+    },
+    "0x80244027": {
+        "message": "WU_E_PT_NO_AUTH_PLUGINS_REQUESTED",
+        "description": "The server returned an empty authentication information list.",
+        "mitigation": ""
+    },
+    "0x80244028": {
+        "message": "WU_E_PT_NO_AUTH_COOKIES_CREATED",
+        "description": "Windows Update Agent was unable to create any valid authentication cookies.",
+        "mitigation": ""
+    },
+    "0x80244029": {
+        "message": "WU_E_PT_INVALID_CONFIG_PROP",
+        "description": "A configuration property value was wrong.",
+        "mitigation": ""
+    },
+    "0x8024402A": {
+        "message": "WU_E_PT_CONFIG_PROP_MISSING",
+        "description": "A configuration property value was missing.",
+        "mitigation": ""
+    },
+    "0x8024402B": {
+        "message": "WU_E_PT_HTTP_STATUS_NOT_MAPPED",
+        "description": "The HTTP request couldn't be completed and the reason didn't correspond to any of the WU_E_PT_HTTP_* error codes.",
+        "mitigation": ""
+    },
+    "0x8024402C": {
+        "message": "WU_E_PT_WINHTTP_NAME_NOT_RESOLVED",
+        "description": "Same as ERROR_WINHTTP_NAME_NOT_RESOLVED - the proxy server or target server name can't be resolved.",
+        "mitigation": ""
+    },
+    "0x80244030": {
+        "message": "WU_E_PT_ECP_INIT_FAILED",
+        "description": "The external cab processor initialization didn't complete.",
+        "mitigation": ""
+    },
+    "0x80244031": {
+        "message": "WU_E_PT_ECP_INVALID_FILE_FORMAT",
+        "description": "The format of a metadata file was invalid.",
+        "mitigation": ""
+    },
+    "0x80244032": {
+        "message": "WU_E_PT_ECP_INVALID_METADATA",
+        "description": "External cab processor found invalid metadata.",
+        "mitigation": ""
+    },
+    "0x80244033": {
+        "message": "WU_E_PT_ECP_FAILURE_TO_EXTRACT_DIGEST",
+        "description": "The file digest couldn't be extracted from an external cab file.",
+        "mitigation": ""
+    },
+    "0x80244034": {
+        "message": "WU_E_PT_ECP_FAILURE_TO_DECOMPRESS_CAB_FILE",
+        "description": "An external cab file couldn't be decompressed.",
+        "mitigation": ""
+    },
+    "0x80244035": {
+        "message": "WU_E_PT_ECP_FILE_LOCATION_ERROR",
+        "description": "External cab processor was unable to get file locations.",
+        "mitigation": ""
+    },
+    "0x80244FFF": {
+        "message": "WU_E_PT_UNEXPECTED",
+        "description": "A communication error not covered by another WU_E_PT_* error code.",
+        "mitigation": ""
+    },
+    "0x8024502D": {
+        "message": "WU_E_PT_SAME_REDIR_ID",
+        "description": "Windows Update Agent failed to download a redirector cabinet file with a new redirectorId value from the server during the recovery.",
+        "mitigation": ""
+    },
+    "0x8024502E": {
+        "message": "WU_E_PT_NO_MANAGED_RECOVER",
+        "description": "A redirector recovery action didn't complete because the server is managed.",
+        "mitigation": ""
+    },
+    "0x80246001": {
+        "message": "WU_E_DM_URLNOTAVAILABLE",
+        "description": "A download manager operation couldn't be completed because the requested file doesn't have a URL.",
+        "mitigation": ""
+    },
+    "0x80246002": {
+        "message": "WU_E_DM_INCORRECTFILEHASH",
+        "description": "A download manager operation couldn't be completed because the file digest wasn't recognized.",
+        "mitigation": ""
+    },
+    "0x80246003": {
+        "message": "WU_E_DM_UNKNOWNALGORITHM",
+        "description": "A download manager operation couldn't be completed because the file metadata requested an unrecognized hash algorithm.",
+        "mitigation": ""
+    },
+    "0x80246004": {
+        "message": "WU_E_DM_NEEDDOWNLOADREQUEST",
+        "description": "An operation couldn't be completed because a download request is required from the download handler.",
+        "mitigation": ""
+    },
+    "0x80246005": {
+        "message": "WU_E_DM_NONETWORK",
+        "description": "A download manager operation couldn't be completed because the network connection was unavailable.",
+        "mitigation": ""
+    },
+    "0x80246006": {
+        "message": "WU_E_DM_WRONGBITSVERSION",
+        "description": "A download manager operation couldn't be completed because the version of Background Intelligent Transfer Service (BITS) is incompatible.",
+        "mitigation": ""
+    },
+    "0x80246008": {
+        "message": "WU_E_DM_FAILTOCONNECTTOBITS",
+        "description": "A download manager operation failed because the download manager was unable to connect the Background Intelligent Transfer Service (BITS).",
+        "mitigation": ""
+    },
+    "0x80246009": {
+        "message": "WU_E_DM_BITSTRANSFERERROR",
+        "description": "A download manager operation failed because there was an unspecified Background Intelligent Transfer Service (BITS) transfer error.",
+        "mitigation": ""
+    },
+    "0x8024600A": {
+        "message": "WU_E_DM_DOWNLOADLOCATIONCHANGED",
+        "description": "A download must be restarted because the location of the source of the download has changed.",
+        "mitigation": ""
+    },
+    "0x8024600B": {
+        "message": "WU_E_DM_CONTENTCHANGED",
+        "description": "A download must be restarted because the update content changed in a new revision.",
+        "mitigation": ""
+    },
+    "0x80246FFF": {
+        "message": "WU_E_DM_UNEXPECTED",
+        "description": "There was a download manager error not covered by another WU_E_DM_* error code.",
+        "mitigation": ""
+    },
+    "0x80242000": {
+        "message": "WU_E_UH_REMOTEUNAVAILABLE",
+        "description": "A request for a remote update handler couldn't be completed because no remote process is available.",
+        "mitigation": ""
+    },
+    "0x80242001": {
+        "message": "WU_E_UH_LOCALONLY",
+        "description": "A request for a remote update handler couldn't be completed because the handler is local only.",
+        "mitigation": ""
+    },
+    "0x80242002": {
+        "message": "WU_E_UH_UNKNOWNHANDLER",
+        "description": "A request for an update handler couldn't be completed because the handler couldn't be recognized.",
+        "mitigation": ""
+    },
+    "0x80242003": {
+        "message": "WU_E_UH_REMOTEALREADYACTIVE",
+        "description": "A remote update handler couldn't be created because one already exists.",
+        "mitigation": ""
+    },
+    "0x80242004": {
+        "message": "WU_E_UH_DOESNOTSUPPORTACTION",
+        "description": "A request for the handler to install (uninstall) an update couldn't be completed because the update doesn't support install (uninstall).",
+        "mitigation": ""
+    },
+    "0x80242005": {
+        "message": "WU_E_UH_WRONGHANDLER",
+        "description": "An operation didn't complete because the wrong handler was specified.",
+        "mitigation": ""
+    },
+    "0x80242007": {
+        "message": "WU_E_UH_INSTALLERHUNG",
+        "description": "An operation couldn't be completed because the installer exceeded the time limit.",
+        "mitigation": ""
+    },
+    "0x80242008": {
+        "message": "WU_E_UH_OPERATIONCANCELLED",
+        "description": "An operation being done by the update handler was canceled.",
+        "mitigation": ""
+    },
+    "0x80242009": {
+        "message": "WU_E_UH_BADHANDLERXML",
+        "description": "An operation couldn't be completed because the handler-specific metadata is invalid.",
+        "mitigation": ""
+    },
+    "0x8024200A": {
+        "message": "WU_E_UH_CANREQUIREINPUT",
+        "description": "A request to the handler to install an update couldn't be completed because the update requires user input.",
+        "mitigation": ""
+    },
+    "0x8024200B": {
+        "message": "WU_E_UH_INSTALLERFAILURE",
+        "description": "The installer failed to install (uninstall) one or more updates.",
+        "mitigation": ""
+    },
+    "0x8024200C": {
+        "message": "WU_E_UH_FALLBACKTOSELFCONTAINED",
+        "description": "The update handler should download self-contained content rather than delta-compressed content for the update.",
+        "mitigation": ""
+    },
+    "0x8024200D": {
+        "message": "WU_E_UH_NEEDANOTHERDOWNLOAD",
+        "description": "The update handler didn't install the update because it needs to be downloaded again.",
+        "mitigation": ""
+    },
+    "0x8024200E": {
+        "message": "WU_E_UH_NOTIFYFAILURE",
+        "description": "The update handler failed to send notification of the status of the install (uninstall) operation.",
+        "mitigation": ""
+    },
+    "0x8024200F": {
+        "message": "WU_E_UH_INCONSISTENT_FILE_NAMES",
+        "description": "The file names contained in the update metadata and in the update package are inconsistent.",
+        "mitigation": ""
+    },
+    "0x80242010": {
+        "message": "WU_E_UH_FALLBACKERROR",
+        "description": "The update handler failed to fall back to the self-contained content.",
+        "mitigation": ""
+    },
+    "0x80242011": {
+        "message": "WU_E_UH_TOOMANYDOWNLOADREQUESTS",
+        "description": "The update handler has exceeded the maximum number of download requests.",
+        "mitigation": ""
+    },
+    "0x80242012": {
+        "message": "WU_E_UH_UNEXPECTEDCBSRESPONSE",
+        "description": "The update handler has received an unexpected response from CBS.",
+        "mitigation": ""
+    },
+    "0x80242013": {
+        "message": "WU_E_UH_BADCBSPACKAGEID",
+        "description": "The update metadata contains an invalid CBS package identifier.",
+        "mitigation": ""
+    },
+    "0x80242015": {
+        "message": "WU_E_UH_POSTREBOOTRESULTUNKNOWN",
+        "description": "The result of the post-reboot operation for the update couldn't be determined.",
+        "mitigation": ""
+    },
+    "0x80242016": {
+        "message": "WU_E_UH_POSTREBOOTUNEXPECTEDSTATE",
+        "description": "The state of the update after its post-reboot operation has completed is unexpected.",
+        "mitigation": ""
+    },
+    "0x80242017": {
+        "message": "WU_E_UH_NEW_SERVICING_STACK_REQUIRED",
+        "description": "The OS servicing stack must be updated before this update is downloaded or installed.",
+        "mitigation": ""
+    },
+    "0x80242FFF": {
+        "message": "WU_E_UH_UNEXPECTED",
+        "description": "An update handler error not covered by another WU_E_UH_* code.",
+        "mitigation": ""
+    },
+    "0x80248000": {
+        "message": "WU_E_DS_SHUTDOWN",
+        "description": "An operation failed because Windows Update Agent is shutting down.",
+        "mitigation": ""
+    },
+    "0x80248001": {
+        "message": "WU_E_DS_INUSE",
+        "description": "An operation failed because the data store was in use.",
+        "mitigation": ""
+    },
+    "0x80248002": {
+        "message": "WU_E_DS_INVALID",
+        "description": "The current and expected states of the data store don't match.",
+        "mitigation": ""
+    },
+    "0x80248003": {
+        "message": "WU_E_DS_TABLEMISSING",
+        "description": "The data store is missing a table.",
+        "mitigation": ""
+    },
+    "0x80248004": {
+        "message": "WU_E_DS_TABLEINCORRECT",
+        "description": "The data store contains a table with unexpected columns.",
+        "mitigation": ""
+    },
+    "0x80248005": {
+        "message": "WU_E_DS_INVALIDTABLENAME",
+        "description": "A table couldn't be opened because the table isn't in the data store.",
+        "mitigation": ""
+    },
+    "0x80248006": {
+        "message": "WU_E_DS_BADVERSION",
+        "description": "The current and expected versions of the data store don't match.",
+        "mitigation": ""
+    },
+    "0x80248007": {
+        "message": "WU_E_DS_NODATA",
+        "description": "The information requested isn't in the data store.",
+        "mitigation": ""
+    },
+    "0x80248008": {
+        "message": "WU_E_DS_MISSINGDATA",
+        "description": "The data store is missing required information or has a NULL in a table column that requires a non-null value.",
+        "mitigation": ""
+    },
+    "0x80248009": {
+        "message": "WU_E_DS_MISSINGREF",
+        "description": "The data store is missing required information or has a reference to missing license terms file localized property or linked row.",
+        "mitigation": ""
+    },
+    "0x8024800A": {
+        "message": "WU_E_DS_UNKNOWNHANDLER",
+        "description": "The update wasn't processed because its update handler couldn't be recognized.",
+        "mitigation": ""
+    },
+    "0x8024800B": {
+        "message": "WU_E_DS_CANTDELETE",
+        "description": "The update wasn't deleted because it's still referenced by one or more services.",
+        "mitigation": ""
+    },
+    "0x8024800C": {
+        "message": "WU_E_DS_LOCKTIMEOUTEXPIRED",
+        "description": "The data store section couldn't be locked within the allotted time.",
+        "mitigation": ""
+    },
+    "0x8024800D": {
+        "message": "WU_E_DS_NOCATEGORIES",
+        "description": "The category wasn't added because it contains no parent categories and isn't a top-level category itself.",
+        "mitigation": ""
+    },
+    "0x8024800E": {
+        "message": "WU_E_DS_ROWEXISTS",
+        "description": "The row wasn't added because an existing row has the same primary key.",
+        "mitigation": ""
+    },
+    "0x8024800F": {
+        "message": "WU_E_DS_STOREFILELOCKED",
+        "description": "The data store couldn't be initialized because it was locked by another process.",
+        "mitigation": ""
+    },
+    "0x80248010": {
+        "message": "WU_E_DS_CANNOTREGISTER",
+        "description": "The data store isn't allowed to be registered with COM in the current process.",
+        "mitigation": ""
+    },
+    "0x80248011": {
+        "message": "WU_E_DS_UNABLETOSTART",
+        "description": "Couldn't create a data store object in another process.",
+        "mitigation": ""
+    },
+    "0x80248013": {
+        "message": "WU_E_DS_DUPLICATEUPDATEID",
+        "description": "The server sent the same update to the client with two different revision IDs.",
+        "mitigation": ""
+    },
+    "0x80248014": {
+        "message": "WU_E_DS_UNKNOWNSERVICE",
+        "description": "An operation didn't complete because the service isn't in the data store.",
+        "mitigation": ""
+    },
+    "0x80248015": {
+        "message": "WU_E_DS_SERVICEEXPIRED",
+        "description": "An operation didn't complete because the registration of the service has expired.",
+        "mitigation": ""
+    },
+    "0x80248016": {
+        "message": "WU_E_DS_DECLINENOTALLOWED",
+        "description": "A request to hide an update was declined because it's a mandatory update or because it was deployed with a deadline.",
+        "mitigation": ""
+    },
+    "0x80248017": {
+        "message": "WU_E_DS_TABLESESSIONMISMATCH",
+        "description": "A table wasn't closed because it isn't associated with the session.",
+        "mitigation": ""
+    },
+    "0x80248018": {
+        "message": "WU_E_DS_SESSIONLOCKMISMATCH",
+        "description": "A table wasn't closed because it isn't associated with the session.",
+        "mitigation": ""
+    },
+    "0x80248019": {
+        "message": "WU_E_DS_NEEDWINDOWSSERVICE",
+        "description": "A request to remove the Windows Update service or to unregister it with Automatic Updates was declined because it's a built-in service and/or Automatic Updates can't fall back to another service.",
+        "mitigation": ""
+    },
+    "0x8024801A": {
+        "message": "WU_E_DS_INVALIDOPERATION",
+        "description": "A request was declined because the operation isn't allowed.",
+        "mitigation": ""
+    },
+    "0x8024801B": {
+        "message": "WU_E_DS_SCHEMAMISMATCH",
+        "description": "The schema of the current data store and the schema of a table in a backup XML document don't match.",
+        "mitigation": ""
+    },
+    "0x8024801C": {
+        "message": "WU_E_DS_RESETREQUIRED",
+        "description": "The data store requires a session reset; release the session and retry with a new session.",
+        "mitigation": ""
+    },
+    "0x8024801D": {
+        "message": "WU_E_DS_IMPERSONATED",
+        "description": "A data store operation didn't complete because it was requested with an impersonated identity.",
+        "mitigation": ""
+    },
+    "0x80248FFF": {
+        "message": "WU_E_DS_UNEXPECTED",
+        "description": "A data store error not covered by another WU_E_DS_* code.",
+        "mitigation": ""
+    },
+    "0x8024C001": {
+        "message": "WU_E_DRV_PRUNED",
+        "description": "A driver was skipped.",
+        "mitigation": ""
+    },
+    "0x8024C002": {
+        "message": "WU_E_DRV_NOPROP_OR_LEGACY",
+        "description": "A property for the driver couldn't be found. It may not conform with required specifications.",
+        "mitigation": ""
+    },
+    "0x8024C003": {
+        "message": "WU_E_DRV_REG_MISMATCH",
+        "description": "The registry type read for the driver doesn't match the expected type.",
+        "mitigation": ""
+    },
+    "0x8024C004": {
+        "message": "WU_E_DRV_NO_METADATA",
+        "description": "The driver update is missing metadata.",
+        "mitigation": ""
+    },
+    "0x8024C005": {
+        "message": "WU_E_DRV_MISSING_ATTRIBUTE",
+        "description": "The driver update is missing a required attribute.",
+        "mitigation": ""
+    },
+    "0x8024C006": {
+        "message": "WU_E_DRV_SYNC_FAILED",
+        "description": "Driver synchronization failed.",
+        "mitigation": ""
+    },
+    "0x8024C007": {
+        "message": "WU_E_DRV_NO_PRINTER_CONTENT",
+        "description": "Information required for the synchronization of applicable printers is missing.",
+        "mitigation": ""
+    },
+    "0x8024CFFF": {
+        "message": "WU_E_DRV_UNEXPECTED",
+        "description": "A driver error not covered by another WU_E_DRV_* code.",
+        "mitigation": ""
+    },
+    "0x80240001": {
+        "message": "WU_E_NO_SERVICE",
+        "description": "Windows Update Agent was unable to provide the service.",
+        "mitigation": ""
+    },
+    "0x80240002": {
+        "message": "WU_E_MAX_CAPACITY_REACHED",
+        "description": "The maximum capacity of the service was exceeded.",
+        "mitigation": ""
+    },
+    "0x80240003": {
+        "message": "WU_E_UNKNOWN_ID",
+        "description": "An ID can't be found.",
+        "mitigation": ""
+    },
+    "0x80240004": {
+        "message": "WU_E_NOT_INITIALIZED",
+        "description": "The object couldn't be initialized.",
+        "mitigation": ""
+    },
+    "0x80240005": {
+        "message": "WU_E_RANGEOVERLAP",
+        "description": "The update handler requested a byte range overlapping a previously requested range.",
+        "mitigation": ""
+    },
+    "0x80240006": {
+        "message": "WU_E_TOOMANYRANGES",
+        "description": "The requested number of byte ranges exceeds the maximum number (2^31 - 1).",
+        "mitigation": ""
+    },
+    "0x80240007": {
+        "message": "WU_E_INVALIDINDEX",
+        "description": "The index to a collection was invalid.",
+        "mitigation": ""
+    },
+    "0x80240008": {
+        "message": "WU_E_ITEMNOTFOUND",
+        "description": "The key for the item queried couldn't be found.",
+        "mitigation": ""
+    },
+    "0x80240009": {
+        "message": "WU_E_OPERATIONINPROGRESS",
+        "description": "Another conflicting operation was in progress. Some operations such as installation can't be performed twice simultaneously.",
+        "mitigation": ""
+    },
+    "0x8024000A": {
+        "message": "WU_E_COULDNOTCANCEL",
+        "description": "Cancellation of the operation wasn't allowed.",
+        "mitigation": ""
+    },
+    "0x8024000C": {
+        "message": "WU_E_NOOP",
+        "description": "No operation was required.",
+        "mitigation": ""
+    },
+    "0x8024000D": {
+        "message": "WU_E_XML_MISSINGDATA",
+        "description": "Windows Update Agent couldn't find required information in the update's XML data.",
+        "mitigation": ""
+    },
+    "0x8024000F": {
+        "message": "WU_E_CYCLE_DETECTED",
+        "description": "Circular update relationships were detected in the metadata.",
+        "mitigation": ""
+    },
+    "0x80240010": {
+        "message": "WU_E_TOO_DEEP_RELATION",
+        "description": "Update relationships too deep to evaluate were evaluated.",
+        "mitigation": ""
+    },
+    "0x80240011": {
+        "message": "WU_E_INVALID_RELATIONSHIP",
+        "description": "An invalid update relationship was detected.",
+        "mitigation": ""
+    },
+    "0x80240012": {
+        "message": "WU_E_REG_VALUE_INVALID",
+        "description": "An invalid registry value was read.",
+        "mitigation": ""
+    },
+    "0x80240013": {
+        "message": "WU_E_DUPLICATE_ITEM",
+        "description": "Operation tried to add a duplicate item to a list.",
+        "mitigation": ""
+    },
+    "0x80240016": {
+        "message": "WU_E_INSTALL_NOT_ALLOWED",
+        "description": "Operation tried to install while another installation was in progress or the system was pending a mandatory restart.",
+        "mitigation": ""
+    },
+    "0x80240018": {
+        "message": "WU_E_NO_USERTOKEN",
+        "description": "Operation failed because a required user token is missing.",
+        "mitigation": ""
+    },
+    "0x80240019": {
+        "message": "WU_E_EXCLUSIVE_INSTALL_CONFLICT",
+        "description": "An exclusive update can't be installed with other updates at the same time.",
+        "mitigation": ""
+    },
+    "0x8024001A": {
+        "message": "WU_E_POLICY_NOT_SET",
+        "description": "A policy value wasn't set.",
+        "mitigation": ""
+    },
+    "0x8024001B": {
+        "message": "WU_E_SELFUPDATE_IN_PROGRESS",
+        "description": "The operation couldn't be performed because the Windows Update Agent is self-updating.",
+        "mitigation": ""
+    },
+    "0x8024001D": {
+        "message": "WU_E_INVALID_UPDATE",
+        "description": "An update contains invalid metadata.",
+        "mitigation": ""
+    },
+    "0x8024001E": {
+        "message": "WU_E_SERVICE_STOP",
+        "description": "Operation didn't complete because the service or system was being shut down.",
+        "mitigation": ""
+    },
+    "0x8024001F": {
+        "message": "WU_E_NO_CONNECTION",
+        "description": "Operation didn't complete because the network connection was unavailable.",
+        "mitigation": ""
+    },
+    "0x80240021": {
+        "message": "WU_E_TIME_OUT",
+        "description": "Operation didn't complete because it timed out.",
+        "mitigation": ""
+    },
+    "0x80240023": {
+        "message": "WU_E_EULAS_DECLINED",
+        "description": "The license terms for all updates were declined.",
+        "mitigation": ""
+    },
+    "0x80240024": {
+        "message": "WU_E_NO_UPDATE",
+        "description": "There are no updates.",
+        "mitigation": ""
+    },
+    "0x80240025": {
+        "message": "WU_E_USER_ACCESS_DISABLED",
+        "description": "Group Policy settings prevented access to Windows Update.",
+        "mitigation": ""
+    },
+    "0x80240026": {
+        "message": "WU_E_INVALID_UPDATE_TYPE",
+        "description": "The type of update is invalid.",
+        "mitigation": ""
+    },
+    "0x80240027": {
+        "message": "WU_E_URL_TOO_LONG",
+        "description": "The URL exceeded the maximum length.",
+        "mitigation": ""
+    },
+    "0x80240028": {
+        "message": "WU_E_UNINSTALL_NOT_ALLOWED",
+        "description": "The update couldn't be uninstalled because the request didn't originate from a WSUS server.",
+        "mitigation": ""
+    },
+    "0x80240029": {
+        "message": "WU_E_INVALID_PRODUCT_LICENSE",
+        "description": "Search may have missed some updates before there's an unlicensed application on the system.",
+        "mitigation": ""
+    },
+    "0x8024002A": {
+        "message": "WU_E_MISSING_HANDLER",
+        "description": "A component required to detect applicable updates was missing.",
+        "mitigation": ""
+    },
+    "0x8024002B": {
+        "message": "WU_E_LEGACYSERVER",
+        "description": "An operation didn't complete because it requires a newer version of server.",
+        "mitigation": ""
+    },
+    "0x8024002C": {
+        "message": "WU_E_BIN_SOURCE_ABSENT",
+        "description": "A delta-compressed update couldn't be installed because it required the source.",
+        "mitigation": ""
+    },
+    "0x8024002D": {
+        "message": "WU_E_SOURCE_ABSENT",
+        "description": "A full-file update couldn't be installed because it required the source.",
+        "mitigation": ""
+    },
+    "0x8024002E": {
+        "message": "WU_E_WU_DISABLED",
+        "description": "Access to an unmanaged server isn't allowed.",
+        "mitigation": ""
+    },
+    "0x8024002F": {
+        "message": "WU_E_CALL_CANCELLED_BY_POLICY",
+        "description": "Operation didn't complete because the DisableWindowsUpdateAccess policy was set.",
+        "mitigation": ""
+    },
+    "0x80240030": {
+        "message": "WU_E_INVALID_PROXY_SERVER",
+        "description": "The format of the proxy list was invalid.",
+        "mitigation": ""
+    },
+    "0x80240031": {
+        "message": "WU_E_INVALID_FILE",
+        "description": "The file is in the wrong format.",
+        "mitigation": ""
+    },
+    "0x80240032": {
+        "message": "WU_E_INVALID_CRITERIA",
+        "description": "The search criteria string was invalid.",
+        "mitigation": ""
+    },
+    "0x80240033": {
+        "message": "WU_E_EULA_UNAVAILABLE",
+        "description": "License terms couldn't be downloaded.",
+        "mitigation": ""
+    },
+    "0x80240034": {
+        "message": "WU_E_DOWNLOAD_FAILED",
+        "description": "Update failed to download.",
+        "mitigation": ""
+    },
+    "0x80240035": {
+        "message": "WU_E_UPDATE_NOT_PROCESSED",
+        "description": "The update wasn't processed.",
+        "mitigation": ""
+    },
+    "0x80240036": {
+        "message": "WU_E_INVALID_OPERATION",
+        "description": "The object's current state didn't allow the operation.",
+        "mitigation": ""
+    },
+    "0x80240037": {
+        "message": "WU_E_NOT_SUPPORTED",
+        "description": "The functionality for the operation isn't supported.",
+        "mitigation": ""
+    },
+    "0x80240038": {
+        "message": "WU_E_WINHTTP_INVALID_FILE",
+        "description": "The downloaded file has an unexpected content type.",
+        "mitigation": ""
+    },
+    "0x80240039": {
+        "message": "WU_E_TOO_MANY_RESYNC",
+        "description": "Agent is asked by server to resync too many times.",
+        "mitigation": ""
+    },
+    "0x80240040": {
+        "message": "WU_E_NO_SERVER_CORE_SUPPORT",
+        "description": "WUA API method doesn't run on Server Core installation.",
+        "mitigation": ""
+    },
+    "0x80240041": {
+        "message": "WU_E_SYSPREP_IN_PROGRESS",
+        "description": "Service isn't available while sysprep is running.",
+        "mitigation": ""
+    },
+    "0x80240042": {
+        "message": "WU_E_UNKNOWN_SERVICE",
+        "description": "The update service is no longer registered with AU.",
+        "mitigation": ""
+    },
+    "0x80240043": {
+        "message": "WU_E_NO_UI_SUPPORT",
+        "description": "There's no support for WUA UI.",
+        "mitigation": ""
+    },
+    "0x00240001": {
+        "message": "WU_S_SERVICE_STOP",
+        "description": "Windows Update Agent was stopped successfully.",
+        "mitigation": ""
+    },
+    "0x00240002": {
+        "message": "WU_S_SELFUPDATE",
+        "description": "Windows Update Agent updated itself.",
+        "mitigation": ""
+    },
+    "0x00240003": {
+        "message": "WU_S_UPDATE_ERROR",
+        "description": "Operation completed successfully but there were errors applying the updates.",
+        "mitigation": ""
+    },
+    "0x00240004": {
+        "message": "WU_S_MARKED_FOR_DISCONNECT",
+        "description": "A callback was marked to be disconnected later because the request to disconnect the operation came while a callback was executing.",
+        "mitigation": ""
+    },
+    "0x00240005": {
+        "message": "WU_S_REBOOT_REQUIRED",
+        "description": "The system must be restarted to complete installation of the update.",
+        "mitigation": ""
+    },
+    "0x00240006": {
+        "message": "WU_S_ALREADY_INSTALLED",
+        "description": "The update to be installed is already installed on the system.",
+        "mitigation": ""
+    },
+    "0x00240007": {
+        "message": "WU_S_ALREADY_UNINSTALLED",
+        "description": "The update to be removed isn't installed on the system.",
+        "mitigation": ""
+    },
+    "0x00240008": {
+        "message": "WU_S_ALREADY_DOWNLOADED",
+        "description": "The update to be downloaded has already been downloaded.",
+        "mitigation": ""
+    },
+    "0x80241001": {
+        "message": "WU_E_MSI_WRONG_VERSION",
+        "description": "Search may have missed some updates because the Windows Installer is less than version 3.1.",
+        "mitigation": ""
+    },
+    "0x80241002": {
+        "message": "WU_E_MSI_NOT_CONFIGURED",
+        "description": "Search may have missed some updates because the Windows Installer isn't configured.",
+        "mitigation": ""
+    },
+    "0x80241003": {
+        "message": "WU_E_MSP_DISABLED",
+        "description": "Search may have missed some updates because policy has disabled Windows Installer patching.",
+        "mitigation": ""
+    },
+    "0x80241004": {
+        "message": "WU_E_MSI_WRONG_APP_CONTEXT",
+        "description": "An update couldn't be applied because the application is installed per-user.",
+        "mitigation": ""
+    },
+    "0x80241FFF": {
+        "message": "WU_E_MSP_UNEXPECTED",
+        "description": "Search may have missed some updates because there was a failure of the Windows Installer.",
+        "mitigation": ""
+    },
+    "0x8024D001": {
+        "message": "WU_E_SETUP_INVALID_INFDATA",
+        "description": "Windows Update Agent couldn't be updated because an INF file contains invalid information.",
+        "mitigation": ""
+    },
+    "0x8024D002": {
+        "message": "WU_E_SETUP_INVALID_IDENTDATA",
+        "description": "Windows Update Agent couldn't be updated because the wuident.cab file contains invalid information.",
+        "mitigation": ""
+    },
+    "0x8024D003": {
+        "message": "WU_E_SETUP_ALREADY_INITIALIZED",
+        "description": "Windows Update Agent couldn't be updated because of an internal error that caused setup initialization to be performed twice.",
+        "mitigation": ""
+    },
+    "0x8024D004": {
+        "message": "WU_E_SETUP_NOT_INITIALIZED",
+        "description": "Windows Update Agent couldn't be updated because setup initialization never completed successfully.",
+        "mitigation": ""
+    },
+    "0x8024D005": {
+        "message": "WU_E_SETUP_SOURCE_VERSION_MISMATCH",
+        "description": "Windows Update Agent couldn't be updated because the versions specified in the INF don't match the actual source file versions.",
+        "mitigation": ""
+    },
+    "0x8024D006": {
+        "message": "WU_E_SETUP_TARGET_VERSION_GREATER",
+        "description": "Windows Update Agent couldn't be updated because a WUA file on the target system is newer than the corresponding source file.",
+        "mitigation": ""
+    },
+    "0x8024D007": {
+        "message": "WU_E_SETUP_REGISTRATION_FAILED",
+        "description": "Windows Update Agent couldn't be updated because regsvr32.exe returned an error.",
+        "mitigation": ""
+    },
+    "0x8024D00A": {
+        "message": "WU_E_SETUP_UNSUPPORTED_CONFIGURATION",
+        "description": "Windows Update Agent couldn't be updated because the current system configuration isn't supported.",
+        "mitigation": ""
+    },
+    "0x8024D00B": {
+        "message": "WU_E_SETUP_BLOCKED_CONFIGURATION",
+        "description": "Windows Update Agent couldn't be updated because the system is configured to block the update.",
+        "mitigation": ""
+    },
+    "0x8024D00C": {
+        "message": "WU_E_SETUP_REBOOT_TO_FIX",
+        "description": "Windows Update Agent couldn't be updated because a restart of the system is required.",
+        "mitigation": ""
+    },
+    "0x8024D00D": {
+        "message": "WU_E_SETUP_ALREADYRUNNING",
+        "description": "Windows Update Agent setup is already running.",
+        "mitigation": ""
+    },
+    "0x8024D00E": {
+        "message": "WU_E_SETUP_REBOOTREQUIRED",
+        "description": "Windows Update Agent setup package requires a reboot to complete installation.",
+        "mitigation": ""
+    },
+    "0x8024D00F": {
+        "message": "WU_E_SETUP_HANDLER_EXEC_FAILURE",
+        "description": "Windows Update Agent couldn't be updated because the setup handler failed during execution.",
+        "mitigation": ""
+    },
+    "0x8024D010": {
+        "message": "WU_E_SETUP_INVALID_REGISTRY_DATA",
+        "description": "Windows Update Agent couldn't be updated because the registry contains invalid information.",
+        "mitigation": ""
+    },
+    "0x8024D013": {
+        "message": "WU_E_SETUP_WRONG_SERVER_VERSION",
+        "description": "Windows Update Agent couldn't be updated because the server doesn't contain update information for this version.",
+        "mitigation": ""
+    },
+    "0x8024DFFF": {
+        "message": "WU_E_SETUP_UNEXPECTED",
+        "description": "Windows Update Agent couldn't be updated because of an error not covered by another WU_E_SETUP_* error code.",
+        "mitigation": ""
+    },
+    "0x8024402F": {
+        "message": "WU_E_PT_ECP_SUCCEEDED_WITH_ERRORS",
+        "description": "External .cab file processing completed with some errors",
+        "mitigation": "This error can be caused by the Lightspeed Rocket for web filtering software. Add the IP addresses of devices you want to get updates to the exceptions list of Lightspeed Rocket."
+    },
+    "0x80242006": {
+        "message": "WU_E_UH_INVALIDMETADATA",
+        "description": "A handler operation couldn't be completed because the update contains invalid metadata.",
+        "mitigation": "Rename the software redistribution folder and try to download the updates again: Rename the following folders to *.BAK: -%systemroot%\\system32\\catroot2 Type the following commands at a command prompt. Press ENTER after you type each command.Ren %systemroot%\\SoftwareDistribution\\DataStore DataStore.bakRen %systemroot%\\SoftwareDistribution\\Download Download.bakRen %systemroot%\\system32\\catroot2 catroot2.bak"
+    },
+    "0x80070BC9": {
+        "message": "ERROR_FAIL_REBOOT_REQUIRED",
+        "description": "The TrustedInstaller service startup type is set to \"Manual\" by Group Policy (GPO), which prevented it from starting to complete pending operations.",
+        "mitigation": "The TrustedInstaller service changes the startup type from Manual to Automatic when it encounters an update that has to process a transaction after a restart. When the value is set back to Manual before the restart, the transaction cannot be applied. This transaction will be pending and block all other update installations.To fix this issue, change the TrustedInstaller policy to Automatic and restart the computer. If it doesn't work, start the computer to WinRE to revert the pending actions. For example, dism /Image:C:\\ /Cleanup-Image /RevertPendingActions. If it doesn't work either, start the computer to WinRE, rename \\WinSxS\\Pending.xml, and remove the PendingXMLIdentifier from COMPONENTS Hive."
+    },
+    "0x80200053": {
+        "message": "BG_E_VALIDATION_FAILED",
+        "description": "NA",
+        "mitigation": "Ensure that there are no firewalls that filter downloads. Such filtering could lead to incorrect responses being received by the Windows Update client."
+    },
+    "0x80072EFD": {
+        "message": "TIME_OUT_ERRORS",
+        "description": "The operation timed out",
+        "mitigation": "Make sure there are no firewall rules or proxies that block Microsoft download URLs. Take a network monitor trace to understand better. <Refer to Firewall Troubleshooting scenario>"
+    },
+    "0x80D02002": {
+        "message": "TIME_OUT_ERRORS",
+        "description": "The operation timed out",
+        "mitigation": "Make sure there are no firewall rules or proxies that block Microsoft download URLs. Take a network monitor trace to understand better. <Refer to Firewall Troubleshooting scenario>"
+    },
+    "0X8007000D": {
+        "message": "ERROR_INVALID_DATA",
+        "description": "Indicates data that isn't valid was downloaded or corruption occurred.",
+        "mitigation": "Attempt to redownload the update and start installation."
+    },
+    "0x8024A10A": {
+        "message": "USO_E_SERVICE_SHUTTING_DOWN",
+        "description": "Indicates that the Windows Update Service is shutting down.",
+        "mitigation": "This error can occur after a long period of time of inactivity. The system fails to respond, leading to the service being idle and causing the service to shut down. Ensure that the system remains active and the connections remain established to complete the installation."
+    },
+    "0x80240020": {
+        "message": "WU_E_NO_INTERACTIVE_USER",
+        "description": "Operation didn't complete because no interactive user is signed in.",
+        "mitigation": "Sign in to the device to start the installation and allow the device to restart."
+    },
+    "0x80242014": {
+        "message": "WU_E_UH_POSTREBOOTSTILLPENDING",
+        "description": "The post-restart operation for the update is still in progress.",
+        "mitigation": "Some Windows updates require the device to be restarted. Restart the device to complete update installation."
+    },
+    "0x80246017": {
+        "message": "WU_E_DM_UNAUTHORIZED_LOCAL_USER",
+        "description": "The download failed because the local user was denied authorization to download the content.",
+        "mitigation": "Ensure that the user attempting to download and install updates has been provided with sufficient privileges to install updates (Local Administrator)."
+    },
+    "0x8024000B": {
+        "message": "WU_E_CALL_CANCELLED",
+        "description": "Operation was canceled.",
+        "mitigation": "The operation was canceled by the user or service. You might also receive this error when we're unable to filter the results."
+    },
+    "0x8024000E": {
+        "message": "WU_E_XML_INVALID",
+        "description": "Windows Update Agent found information in the update's XML data that isn't valid.",
+        "mitigation": "Certain drivers contain more metadata information in Update.xml, which Orchestrator can interpret as data that isn't valid. Ensure that you have the latest Windows Update Agent installed on the device."
+    },
+    "0x8024D009": {
+        "message": "WU_E_SETUP_SKIP_UPDATE",
+        "description": "An update to the Windows Update Agent was skipped due to a directive in the Wuident.cab file.",
+        "mitigation": "You might encounter this error when WSUS isn't sending the self-update to the clients.For more information to resolve the issue, review KB920659."
+    },
+    "0x80244007": {
+        "message": "WU_E_PT_SOAPCLIENT_SOAPFAULT",
+        "description": "SOAP client failed because there was a SOAP fault for reasons of WU_E_PT_SOAP_* error codes.",
+        "mitigation": "This issue occurs because Windows can't renew the cookies for Windows Update.  For more information to resolve the issue, see 0x80244007 error when Windows tries to scan for updates on a WSUS server."
+    },
+    "0x80070422": {
+        "message": "ERROR_SERVICE_DISABLED",
+        "description": "This issue occurs when the Windows Update service stops working or isn't running.",
+        "mitigation": "Check if the Windows Update service is running."
+    },
+    "0x800f0821": {
+        "message": "CBS_E_ABORT; client abort, IDABORT returned by ICbsUIHandler method except Error()",
+        "description": "CBS   transaction timeout exceeded.",
+        "mitigation": "A servicing operation is taking a long time to complete. The servicing stack watchdog timer expires. Extending the timeout will mitigate the issue. Increase the resources on the device. If a virtual machine, increase virtual CPU and memory to speed up operations. Make sure the device has installed the update in KB4493473 or later."
+    },
+    "0x800f0825": {
+        "message": "CBS_E_CANNOT_UNINSTALL; Package can't be uninstalled.",
+        "description": "Typically this error is due component store corruption caused when a component is in a partially installed state.",
+        "mitigation": "Repair the component store with the Dism RestoreHealth command or manually repair with a payload from the partially installed component. From an elevated command prompt, run these commands:Dism.exe /Online /Cleanup-Image /RestorehealthSfc.exe /Scannow Restart the device."
+    },
+    "0x800F0920": {
+        "message": "CBS_E_HANG_DETECTED; A failure to respond was detected while processing the operation.",
+        "description": "Subsequent error logged after getting 0x800f0821",
+        "mitigation": "A servicing operation is taking a long time to complete. The servicing stack watchdog timer expires and assumes the system has stopped responding.  Extending the timeout will mitigate the issue. Increase the resources on the device. If a virtual machine, increase virtual CPU and memory to speed up operations. Make sure the device has installed the update in KB4493473 or later."
+    },
+    "0x800f081f": {
+        "message": "CBS_E_SOURCE_MISSING; source for package or file not found, ResolveSource() unsuccessful",
+        "description": "Component Store corruption",
+        "mitigation": "Repair the component store with the Dism RestoreHealth command or manually repair with the payload from the partially installed component. From an elevated command prompt and run these commands:Dism.exe /Online /Cleanup-Image /RestorehealthSfc.exe /Scannow Restart the device."
+    },
+    "0x800f0831": {
+        "message": "CBS_E_STORE_CORRUPTION; CBS store is corrupted.",
+        "description": "Corruption in the Windows Component  Store.",
+        "mitigation": "Repair the component store with Dism RestoreHealth or manually repair with   the payload from the partially installed component. From an elevated command prompt and run these commands:Dism.exe /Online /Cleanup-Image /RestorehealthSfc.exe /Scannow Restart the device."
+    },
+    "0x80070005": {
+        "message": "E_ACCESSDENIED; General access denied error",
+        "description": "File system or registry key permissions have been changed and the servicing stack doesn't have the required level of access.",
+        "mitigation": "This error generally means an access was denied. Go to %Windir%\\logs\\CBS, open the last CBS.log and search for , error and match with the timestamp. After finding the error, scroll up and try to determine what caused the access denial. It could be access denied to a file, registry key. Determine what object needs the right permissions and change the permissions as needed."
+    },
+    "0x80070570": {
+        "message": "ERROR_FILE_CORRUPT; The file or directory is corrupted and unreadable.",
+        "description": "Component Store corruption",
+        "mitigation": "Repair the component store with Dism RestoreHealth or manually repair with the payload from the partially installed component. From an elevated command prompt and run these commands:Dism.exe /Online /Cleanup-Image /RestorehealthSfc.exe /Scannow Restart the device."
+    },
+    "0x80070003": {
+        "message": "ERROR_PATH_NOT_FOUND; The system can't find the path specified.",
+        "description": "The servicing stack can't access a specific path.",
+        "mitigation": "Indicates an invalid path to an executable. Go to %Windir%\\logs\\CBS, open the last CBS.log, and search for , error. Then match the results with the timestamp."
+    },
+    "0x80070020": {
+        "message": "ERROR_SHARING_VIOLATION",
+        "description": "Numerous causes. CBS log analysis required.",
+        "mitigation": "This error is caused by non-Microsoft filter drivers like antivirus.  1. Perform a clean boot and retry the installation  2. Download the sysinternal tool Process Monitor.  3. Run Procmon.exe. It will start data capture automatically.  4. Install the update package again  5. With the Process Monitor main window in focus, press CTRL + E or select the magnifying glass to stop data capture.  6. Select File > Save > All Events > PML, and choose a path to save the .PML file  7. Go to %windir%\\logs\\cbs, open the last Cbs.log file, and search for the error. After finding the error line a bit above, you should have the file being accessed during the installation that is giving the sharing violation error  8. In Process Monitor, filter for path and insert the file name (it should be something like \"path\" \"contains\" \"filename from CBS\").  9. Try to stop it or uninstall the process causing the error."
+    },
+    "0x80073701": {
+        "message": "ERROR_SXS_ASSEMBLY_MISSING; The referenced assembly couldn't be found.",
+        "description": "Typically, a component store corruption caused when a component is in a partially installed state.",
+        "mitigation": "Repair the component store with Dism RestoreHealth command or manually repair it with the payload from the partially installed component. From an elevated command prompt, run these commands:Dism.exe /Online /Cleanup-Image /RestorehealthSfc.exe /Scannow Restart the device."
+    },
+    "0x8007371b": {
+        "message": "ERROR_SXS_TRANSACTION_CLOSURE_INCOMPLETE; One or more required members of the transaction aren't present.",
+        "description": "Component Store corruption.",
+        "mitigation": "Repair the component store with Dism RestoreHealth command or manually repair it with the payload from the partially installed component. From an elevated command prompt and run these commands:Dism.exe /Online /Cleanup-Image /RestorehealthSfc.exe /Scannow Restart the device."
+    },
+    "0x80072EFE": {
+        "message": "WININET_E_CONNECTION_ABORTED; The connection with the server was closed abnormally",
+        "description": "BITS is unable to transfer the file successfully.",
+        "mitigation": "Encountered if BITS is broken or if the file being transferred can't be written to the destination folder on the client. This error is caused by connection errors while checking or downloading updates. From a cmd prompt run: BITSADMIN /LIST /ALLUSERS /VERBOSE  Search for the 0x80072EFE error code. You should see a reference to an HTTP code with a specific file. Using a browser, try to download it manually, making sure you're using your organization's proxy settings. If the download fails, check with your proxy manager to allow for the communication to be sucesfull. Also check with your network team for this specific URL access."
+    },
+    "0x80072F8F": {
+        "message": "WININET_E_DECODING_FAILED; Content decoding has failed",
+        "description": "TLS 1.2 isn't configured correctly on the client.",
+        "mitigation": "This error generally means that the Windows Update Agent was unable to decode the received content. Install and configure TLS 1.2 by installing the update in KB3140245."
+    },
+    "0x80072EE2": {
+        "message": "WININET_E_TIMEOUT; The operation timed out",
+        "description": "Unable to scan for updates due to a connectivity issue to Windows Update, Configuration Manager, or WSUS.",
+        "mitigation": "This error generally means that the Windows Update Agent was unable to connect to the update servers or your own source, such as WSUS, Configuration Manager, or Microsoft Intune.  Check with your network team to ensure that the device can reach the update sources. For more info, see Troubleshoot software update scan failures in Configuration Manager.  If you're using the public Microsoft update servers, check that your device can access the following Windows Update endpoints:  http://windowsupdate.microsoft.com  https://*.windowsupdate.microsoft.com  https://update.microsoft.com  https://*.update.microsoft.com  https://windowsupdate.com  https://*.windowsupdate.com  https://download.windowsupdate.com  https://*.download.windowsupdate.com  https://download.microsoft.com  https://*.download.windowsupdate.com  https://wustat.windows.com  https://*.wustat.windows.com  https://ntservicepack.microsoft.com"
+    },
+    "0x80240022": {
+        "message": "WU_E_ALL_UPDATES_FAILED; Operation failed for all the updates.",
+        "description": "Multiple root causes for this error.",
+        "mitigation": "Most common issue is that antivirus software is blocking access to certain folders (like SoftwareDistribution). CBS.log analysis needed to determine the file or folder being protected."
+    },
+    "0x8024401B": {
+        "message": "WU_E_PT_HTTP_STATUS_PROXY_AUTH_REQ; Same as HTTP status 407 - proxy authentication is required.",
+        "description": "Unable to authenticate through a proxy server.",
+        "mitigation": "Either the Winhttp proxy or WinInet proxy settings aren't configured correctly. This error generally means that the Windows Update Agent was unable to connect to the update servers or your own update source, such as WSUS, Configuration Manager, or Microsoft Intune, due to a proxy error.  Verify the proxy settings on the client. The Windows Update Agent uses WinHTTP to scan for available updates. When there's a proxy server between the client and the update source, the proxy settings must be configured correctly on the clients to enable them to communicate by using the source's FQDN.  Check with your network and proxy teams to confirm that the device can the update source without the proxy requiring user authentication."
+    },
+    "0x80244022": {
+        "message": "WU_E_PT_HTTP_STATUS_SERVICE_UNAVAILABLE; Same as HTTP status 503 - the service is temporarily overloaded.",
+        "description": "Unable to connect to the configured update source.",
+        "mitigation": "Network troubleshooting needed to resolve the connectivity issue. Check with your network and proxy teams to confirm that the device can the update source without the proxy requiring user authentication."
+    },
+    "0x80070490": {
+        "message": "ERROR_NOT_FOUND",
+        "description": "This error occurs during driver installation as part of the update.",
+        "mitigation": "This issue occurs because details such as the architecture for a driver that's being updated are missing in the registry. Manually add the missing inf file Arch value in the Driver operations registry by following these steps:1. Open regedit and navigate to HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\ComponentBasedServicing\\DriverOperations\\0\\2(SequenceID)2. Review the Identity value to determine the value that is missing.3. Manually add the missing value referring to the information in the Identity value. For example, Name: Arch; Type: REG_SZ (String Value); Data: amd64.4. Proceed with installing the failing update."
+    },
+    "0x800f0922": {
+        "message": "CBS_E_INSTALLERS_FAILED",
+        "description": "The July cumulative update failed to be installed on Windows Server 2016",
+        "mitigation": "In the CBS.log, you may find that updates sometimes roll back when License and Product key tokens fail to be updated. This issue can be resolved by adding write permissions for the \"User\" and \"Network Service\" accounts to the C:\\Windows\\System32\\spp\\ folder."
+    },
+    "0x80070bc9": {
+        "message": "ERROR_FAIL_REBOOT_REQUIRED",
+        "description": "The TrustedInstaller service startup type is set to \"Manual\" by Group Policy (GPO), which prevented it from starting to complete pending operations.",
+        "mitigation": "The TrustedInstaller service changes the startup type from Manual to Automatic when it encounters an update that has to process a transaction after a restart. When the value is set back to Manual before the restart, the transaction cannot be applied. This transaction will be pending and block all other update installations.\nTo fix this issue, change the TrustedInstaller policy to Automatic and restart the computer. If it doesn't work, start the computer to WinRE to revert the pending actions. For example, dism /Image:C:\\ /Cleanup-Image /RevertPendingActions. If it doesn't work either, start the computer to WinRE, rename \\WinSxS\\Pending.xml, and remove the PendingXMLIdentifier from COMPONENTS Hive."
+    },
+    "0x800706be": {
+        "message": "Failed to install cumulative updates",
+        "description": "Windows Server 2016 Std failed to install cumulative packages by using the .msu package. No error is returned. When installing the packages with dism.exe, it returned the error 0x800706be.",
+        "mitigation": "The last cumulative update failed to install and was corrupted. To resolve this issue, navigate to the registry key for the corrupted update package. Change the \"current state\" value to 000020 hex (32 dec) - resolved, or 000040 hex (64 dec) - staged, or 000070 hex (112 dec) - installed."
+    },
+    "0xC7700112": {
+        "message": "",
+        "description": "Failure to complete writing data to the system drive, possibly due to write access failure on the hard disk.",
+        "mitigation": "This issue is resolved in the latest version of Upgrade Assistant.Ensure that \"Download and install updates (recommended)\" is accepted at the start of the upgrade process."
+    },
+    "0x80190001": {
+        "message": "",
+        "description": "An unexpected error was encountered while attempting to download files required for upgrade.",
+        "mitigation": "To resolve this issue, download and run the media creation tool. See Download windows 10."
+    },
+    "0x80246007": {
+        "message": "",
+        "description": "The update wasn't downloaded successfully.",
+        "mitigation": "Attempt other methods of upgrading the operating system.Download and run the media creation tool. See Download windows 10.Attempt to upgrade using .ISO or USB. Note: Windows 10 Enterprise isn't available in the media creation tool. For more information, go to the Volume Licensing Service Center."
+    },
+    "0x80244018": {
+        "message": "",
+        "description": "Your machine is connected through a proxy server.",
+        "mitigation": "Make sure Automatically Detect Settings is selected in internet options. (Control Panel > Internet Options > Connections > LAN Settings)."
+    },
+    "0xC1900201": {
+        "message": "",
+        "description": "The system didn't pass the minimum requirements to install the update.",
+        "mitigation": "Contact the hardware vendor to get the latest updates."
+    },
+    "0x80240017": {
+        "message": "",
+        "description": "The upgrade is unavailable for this edition of Windows.",
+        "mitigation": "Administrative policies enforced by your organization might be preventing the upgrade. Contact your IT administrator."
+    },
+    "0x80070522": {
+        "message": "",
+        "description": "The user doesn't have required privilege or credentials to upgrade.",
+        "mitigation": "Ensure that you've signed in as a local administrator or have local administrator privileges."
+    },
+    "0xC1900107": {
+        "message": "",
+        "description": "A cleanup operation from a previous installation attempt is still pending and a system reboot is required in order to continue the upgrade.",
+        "mitigation": "Restart the device and run setup again. If restarting the device doesn't resolve the issue, then use the Disk Cleanup utility to clean up the temporary files and the System files. For more information, see Disk cleanup in Windows 10."
+    },
+    "0xC1900209": {
+        "message": "",
+        "description": "The user has chosen to cancel because the system doesn't pass the compatibility scan to install the update. Setup.exe will report this error when it can upgrade the machine with user data but cannot migrate installed applications.",
+        "mitigation": "Incompatible software is blocking the upgrade process. Uninstall the application and try the upgrade again. For more information, see Windows 10 Pre-Upgrade Validation using SETUP.EXE.You can also download the Windows Assessment and Deployment Kit (ADK) for Windows 10 and install Application Compatibility Tools."
+    },
+    "0x8007002": {
+        "message": "",
+        "description": "This error is specific to upgrades using Configuration Manager R2 SP1 CU3 (5.00.8238.1403)",
+        "mitigation": "Analyze the SMSTS.log and verify that the upgrade is failing on \"Apply Operating system\" Phase: Error 80072efe DownloadFileWithRanges() failed. 80072efe. ApplyOperatingSystem (0x0760)The error 80072efe means that the connection with the server was terminated abnormally.To resolve this issue, try the OS Deployment test on a client in same VLAN as the Configuration Manager server. Check the network configuration for random client-server connection issues happening on the remote VLAN."
+    },
+    "0x80240FFF": {
+        "message": "",
+        "description": "Occurs when update synchronization fails. It can occur when you're using Windows Server Update Services on its own or when it's integrated with Microsoft Endpoint Configuration Manager. If you enable update synchronization before you install hotfix 3095113, WSUS doesn't recognize the Upgrades classification, and instead treats the upgrade like a regular update.",
+        "mitigation": "You can prevent this by installing hotfix 3095113 before you enable update synchronization. However, if you have already run into this problem, do the following steps:Disable the Upgrades classification.Install hotfix 3095113.Delete previously synched updates.Enable the Upgrades classification.Perform a full synch.For detailed information on how to run these steps check out How to delete upgrades in WSUS."
+    },
+    "0x8007007E": {
+        "message": "",
+        "description": "Occurs when update synchronization fails because you don't have hotfix 3095113 installed before you enable update synchronization. Specifically, the CopyToCache operation fails on clients that have already downloaded the upgrade because Windows Server Update Services has bad metadata related to the upgrade. It can occur when you're using standalone Windows Server Update Services or when WSUS is integrated with Microsoft Endpoint Configuration Manager.",
+        "mitigation": "Use the following steps to repair Windows Server Update Services. You must run these steps on each WSUS server that synched metadata before you installed the hotfix.Stop the Windows Update service. Sign in as a user with administrative privileges, and then do the following steps:Open Administrative Tools from the Control Panel.Double-click Services.Find the Windows Update service, right-click it, and then select Stop. If prompted, enter your credentials.Delete all files and folders under c:\\Windows\\SoftwareDistribution\\DataStore.Restart the Windows Update service."
+    },
+    "0x80070003- 0x20007": {
+        "message": "",
+        "description": "This is a failure during SafeOS phase driver installation.",
+        "mitigation": "Verify device drivers on the computer, and analyze log files to determine the problem driver."
+    },
+    "0x8007025D - 0x2000C": {
+        "message": "",
+        "description": "This error occurs if the ISO file's metadata is corrupt or if there's an issue with the storage medium, such as a RAM module containing bad blocks during the installation of Windows.",
+        "mitigation": "Redownload the ISO/Media and reattempt the upgradeAlternatively, re-create installation media the Media Creation Tool."
+    },
+    "0x80070490 - 0x20007": {
+        "message": "",
+        "description": "An incompatible device driver is present.",
+        "mitigation": "Verify device drivers on the computer, and analyze log files to determine the problem driver."
+    },
+    "0xC1900200 - 0x20008": {
+        "message": "",
+        "description": "The computer doesn't meet the minimum requirements to download or upgrade to Windows 10.See Windows 10 Specifications and verify the computer meets minimum requirements.Review logs for Windows 10 Specifications.",
+        "mitigation": ""
+    },
+    "0x80070004 - 0x3000D": {
+        "message": "",
+        "description": "This is a problem with data migration during the first boot phase. There are multiple possible causes.",
+        "mitigation": "Analyze log files to determine the issue."
+    },
+    "0xC1900101 - 0x4001E": {
+        "message": "",
+        "description": "Installation failed in the SECOND_BOOT phase with an error during PRE_OOBE operation.",
+        "mitigation": "This is a generic error that occurs during the OOBE phase of setup. See the 0xC1900101 section of this guide and review general troubleshooting procedures described in that section."
+    },
+    "0x80070005 - 0x4000D": {
+        "message": "",
+        "description": "The installation failed in the SECOND_BOOT phase with an error in during MIGRATE_DATA operation. This error indicates that access was denied while attempting to migrate data.",
+        "mitigation": "Analyze log files to determine the data point that is reporting access denied."
+    },
+    "0x80070004 - 0x50012": {
+        "message": "",
+        "description": "Windows Setup failed to open a file.",
+        "mitigation": "Analyze log files to determine the data point that is reporting access problems."
+    },
+    "0xC190020e0x80070070 - 0x500110x80070070 - 0x500120x80070070 - 0x60000": {
+        "message": "",
+        "description": "These errors indicate the computer doesn't have enough free space available to install the upgrade.",
+        "mitigation": "To upgrade a computer to Windows 10, it requires 16 GB of free hard drive space for a 32-bit OS, and 20 GB for a 64-bit OS. If there isn't enough space, attempt to free up drive space before proceeding with the upgrade. Note: If your device allows it, you can use an external USB drive for the upgrade process. Windows setup will back up the previous version of Windows to a USB external drive. The external drive must be at least 8 GB (16 GB is recommended). The external drive should be formatted using NTFS.  Drives that are formatted in FAT32 may run into errors due to FAT32 file size limitations. USB drives are preferred over SD cards because drivers for SD cards aren't migrated if the device doesn't support Connected Standby."
+    },
+    "0XC1900100": {
+        "message": "MOSETUP_E_VERSION_MISMATCH",
+        "description": "An unexpected version of Setup Platform binaries was encountered. Verify the package contents.",
+        "mitigation": ""
+    },
+    "0XC1900101": {
+        "message": "MOSETUP_E_SETUP_PLATFORM",
+        "description": "The Setup Platform has encountered an unspecified error.",
+        "mitigation": ""
+    },
+    "0XC1900102": {
+        "message": "MOSETUP_E_SHUTDOWN_BLOCK",
+        "description": "Unable to create or destroy the shutdown block message.",
+        "mitigation": ""
+    },
+    "0XC1900103": {
+        "message": "MOSETUP_E_COMPAT_TIMEOUT",
+        "description": "The compatibility issues weren't resolved within the required time limit.",
+        "mitigation": ""
+    },
+    "0XC1900104": {
+        "message": "MOSETUP_E_PROCESS_TIMEOUT",
+        "description": "The installation process did not complete within the required time limit.",
+        "mitigation": ""
+    },
+    "0XC1900105": {
+        "message": "MOSETUP_E_TEST_MODE",
+        "description": "The installation process is being used in a test environment.",
+        "mitigation": ""
+    },
+    "0XC1900106": {
+        "message": "MOSETUP_E_TERMINATE_PROCESS",
+        "description": "The installation process was terminated.",
+        "mitigation": ""
+    },
+    "0XC1900107": {
+        "message": "MOSETUP_E_CLEANUP_PENDING",
+        "description": "A cleanup operation from a previous installation attempt is still pending. A system reboot is required.",
+        "mitigation": ""
+    },
+    "0XC1900108": {
+        "message": "MOSETUP_E_REPORTING",
+        "description": "An error has occurred and the result value must be consolidated for telemetry purposes.",
+        "mitigation": ""
+    },
+    "0XC1900109": {
+        "message": "MOSETUP_E_COMPAT_TERMINATE",
+        "description": "The installation process was terminated during the actionable compatibility phase.",
+        "mitigation": ""
+    },
+    "0XC190010a": {
+        "message": "MOSETUP_E_UNKNOWN_CMD_LINE",
+        "description": "The installation process was launched with an unknown command-line argument.",
+        "mitigation": ""
+    },
+    "0XC190010b": {
+        "message": "MOSETUP_E_INSTALL_IMAGE_NOT_FOUND",
+        "description": "The installation image was not found.",
+        "mitigation": ""
+    },
+    "0XC190010c": {
+        "message": "MOSETUP_E_AUTOMATION_INVALID",
+        "description": "The provided automation information was invalid.",
+        "mitigation": ""
+    },
+    "0XC190010d": {
+        "message": "MOSETUP_E_INVALID_CMD_LINE",
+        "description": "The installation process was launched with an invalid command-line argument.",
+        "mitigation": ""
+    },
+    "0XC190010e": {
+        "message": "MOSETUP_E_EULA_ACCEPT_REQUIRED",
+        "description": "The installation process requires that the user accept the license agreement.",
+        "mitigation": ""
+    },
+    "0XC1900110": {
+        "message": "MOSETUP_E_EULA_CANCEL",
+        "description": "The user has chosen to cancel for license agreement.",
+        "mitigation": ""
+    },
+    "0XC1900111": {
+        "message": "MOSETUP_E_ADVERTISE_CANCEL",
+        "description": "The user has chosen to cancel for advertisement.",
+        "mitigation": ""
+    },
+    "0XC1900112": {
+        "message": "MOSETUP_E_TARGET_DRIVE_NOT_FOUND",
+        "description": "Could not find a target drive letter.",
+        "mitigation": ""
+    },
+    "0XC1900113": {
+        "message": "MOSETUP_E_EULA_DECLINED",
+        "description": "The user has declined the license terms.",
+        "mitigation": ""
+    },
+    "0XC190011e": {
+        "message": "MOSETUP_E_FLIGHTING_BVT",
+        "description": "The installation process has been halted for testing purposes.",
+        "mitigation": ""
+    },
+    "0XC190011f": {
+        "message": "MOSETUP_E_PROCESS_CRASHED",
+        "description": "The installation process crashed.",
+        "mitigation": ""
+    },
+    "0XC1900120": {
+        "message": "MOSETUP_E_EULA_TIMEOUT",
+        "description": "The user has not accepted the EULA within the required time limit.",
+        "mitigation": ""
+    },
+    "0XC1900121": {
+        "message": "MOSETUP_E_ADVERTISE_TIMEOUT",
+        "description": "The user has not accepted Advertisement within the required time limit.",
+        "mitigation": ""
+    },
+    "0XC1900122": {
+        "message": "MOSETUP_E_DOWNLOADDISKSPACE_TIMEOUT",
+        "description": "The download disk space issues were not resolved within the required time limit.",
+        "mitigation": ""
+    },
+    "0XC1900123": {
+        "message": "MOSETUP_E_INSTALLDISKSPACE_TIMEOUT",
+        "description": "The install disk space issues were not resolved within the required time limit.",
+        "mitigation": ""
+    },
+    "0XC1900124": {
+        "message": "MOSETUP_E_COMPAT_SYSREQ_TIMEOUT",
+        "description": "The minimum requirements compatibility issues were not resolved within the required time limit.",
+        "mitigation": ""
+    },
+    "0XC1900125": {
+        "message": "MOSETUP_E_COMPAT_DOWNLOADREQ_TIMEOUT",
+        "description": "The compatibility issues for download were not resolved within the required time limit.",
+        "mitigation": ""
+    },
+    "0XC1900126": {
+        "message": "MOSETUP_E_GATHER_OS_STATE_SIGNATURE",
+        "description": "The GatherOsState executable has invalid signature.",
+        "mitigation": ""
+    },
+    "0XC1900127": {
+        "message": "MOSETUP_E_UNINSTALL_ALLOWED_ABORT",
+        "description": "The user has chosen to abort Setup to keep Uninstall option active.",
+        "mitigation": ""
+    },
+    "0XC1900128": {
+        "message": "MOSETUP_E_MISSING_TASK",
+        "description": "The install cannot continue because a required task is missing.",
+        "mitigation": ""
+    },
+    "0XC1900129": {
+        "message": "MOSETUP_E_UPDATEMEDIA_REQUESTED",
+        "description": "A more up-to-date version of setup will be launched to continue installation",
+        "mitigation": ""
+    },
+    "0XC190012f": {
+        "message": "MOSETUP_E_FINALIZE_ALREADY_REQUESTED",
+        "description": "The install cannot continue because a finalize operation was already requested.",
+        "mitigation": ""
+    },
+    "0XC1900130": {
+        "message": "MOSETUP_E_INSTALL_HASH_MISSING",
+        "description": "The install cannot continue because the instance hash was not found.",
+        "mitigation": ""
+    },
+    "0XC1900131": {
+        "message": "MOSETUP_E_INSTALL_HASH_MISMATCH",
+        "description": "The install cannot continue because the instance hash does not match.",
+        "mitigation": ""
+    },
+    "0XC19001df": {
+        "message": "MOSETUP_E_DISK_FULL",
+        "description": "The install cannot continue because the system is out of disk space.",
+        "mitigation": ""
+    },
+    "0XC19001e0": {
+        "message": "MOSETUP_E_GATHER_OS_STATE_FAILED",
+        "description": "The GatherOsState executable has failed to execute.",
+        "mitigation": ""
+    },
+    "0XC19001e1": {
+        "message": "MOSETUP_E_PROCESS_SUSPENDED",
+        "description": "The installation process was suspended.",
+        "mitigation": ""
+    },
+    "0XC19001e2": {
+        "message": "MOSETUP_E_PREINSTALL_SCRIPT_FAILED",
+        "description": "A preinstall script failed to execute or returned an error.",
+        "mitigation": ""
+    },
+    "0XC19001e3": {
+        "message": "MOSETUP_E_PRECOMMIT_SCRIPT_FAILED",
+        "description": "A precommit script failed to execute or returned an error.",
+        "mitigation": ""
+    },
+    "0XC19001e4": {
+        "message": "MOSETUP_E_FAILURE_SCRIPT_FAILED",
+        "description": "A failure script failed to execute or returned an error.",
+        "mitigation": ""
+    },
+    "0XC19001e5": {
+        "message": "MOSETUP_E_SCRIPT_TIMEOUT",
+        "description": "A script exceeded the timeout limit.",
+        "mitigation": ""
+    },
+    "0XC1900200": {
+        "message": "MOSETUP_E_COMPAT_SYSREQ_BLOCK",
+        "description": "The system does not pass the minimum requirements to install the update.",
+        "mitigation": ""
+    },
+    "0XC1900201": {
+        "message": "MOSETUP_E_COMPAT_SYSREQ_CANCEL",
+        "description": "The user has chosen to cancel because the system does not pass the minimum requirements to install the update.",
+        "mitigation": ""
+    },
+    "0XC1900202": {
+        "message": "MOSETUP_E_COMPAT_DOWNLOADREQ_BLOCK",
+        "description": "The system does not pass the minimum requirements to download the update.",
+        "mitigation": ""
+    },
+    "0XC1900203": {
+        "message": "MOSETUP_E_COMPAT_DOWNLOADREQ_CANCEL",
+        "description": "The user has chosen to cancel because the system does not pass the minimum requirements to download the update.",
+        "mitigation": ""
+    },
+    "0XC1900204": {
+        "message": "MOSETUP_E_COMPAT_MIGCHOICE_BLOCK",
+        "description": "The system does not pass the requirements for desired migration choice.",
+        "mitigation": ""
+    },
+    "0XC1900205": {
+        "message": "MOSETUP_E_COMPAT_MIGCHOICE_CANCEL",
+        "description": "The user has chosen to cancel because the system does not pass the requirements for desired migration choice.",
+        "mitigation": ""
+    },
+    "0XC1900206": {
+        "message": "MOSETUP_E_COMPAT_DEVICEREQ_BLOCK",
+        "description": "The system does not pass the device scan to install the update.",
+        "mitigation": ""
+    },
+    "0XC1900207": {
+        "message": "MOSETUP_E_COMPAT_DEVICEREQ_CANCEL",
+        "description": "The user has chosen to cancel because the system does not pass the device scan to install the update.",
+        "mitigation": ""
+    },
+    "0XC1900208": {
+        "message": "MOSETUP_E_COMPAT_INSTALLREQ_BLOCK",
+        "description": "The system does not pass the compat scan to install the update.",
+        "mitigation": ""
+    },
+    "0XC1900209": {
+        "message": "MOSETUP_E_COMPAT_INSTALLREQ_CANCEL",
+        "description": "The user has chosen to cancel because the system does not pass the compat scan to install the update.",
+        "mitigation": ""
+    },
+    "0XC190020a": {
+        "message": "MOSETUP_E_COMPAT_RECOVERYREQ_BLOCK",
+        "description": "The system does not pass the minimum requirements to recover Windows.",
+        "mitigation": ""
+    },
+    "0XC190020b": {
+        "message": "MOSETUP_E_COMPAT_RECOVERYREQ_CANCEL",
+        "description": "The user has chosen to cancel because the system does not pass the minimum requirements to recover Windows.",
+        "mitigation": ""
+    },
+    "0XC190020c": {
+        "message": "MOSETUP_E_DOWNLOADDISKSPACE_BLOCK",
+        "description": "The system does not pass the disk space requirements to download the payload.",
+        "mitigation": ""
+    },
+    "0XC190020d": {
+        "message": "MOSETUP_E_DOWNLOADDISKSPACE_CANCEL",
+        "description": "The user has chosen to cancel as the device does not have enough disk space to download.",
+        "mitigation": ""
+    },
+    "0XC190020e": {
+        "message": "MOSETUP_E_INSTALLDISKSPACE_BLOCK",
+        "description": "The system does not pass the disk space requirements to install the payload.",
+        "mitigation": ""
+    },
+    "0XC190020f": {
+        "message": "MOSETUP_E_INSTALLDISKSPACE_CANCEL",
+        "description": "The user has chosen to cancel as the device does not have enough disk space to install.",
+        "mitigation": ""
+    },
+    "0XC1900210": {
+        "message": "MOSETUP_E_COMPAT_SCANONLY",
+        "description": "The user has used the setup.exe command line to do scanonly, not to install the OS.",
+        "mitigation": ""
+    },
+    "0XC1900211": {
+        "message": "MOSETUP_E_DOWNLOAD_UNPACK_DISKSPACE_BLOCK",
+        "description": "The system does not pass the disk space requirements to download and unpack media.",
+        "mitigation": ""
+    },
+    "0XC1900212": {
+        "message": "MOSETUP_E_DOWNLOAD_UNPACK_DISKSPACE_MULTIARCH_BLOCK",
+        "description": "The system does not pass the disk space requirements to download and unpack multi-architecture media.",
+        "mitigation": ""
+    },
+    "0XC1900213": {
+        "message": "MOSETUP_E_NO_OFFER_FOUND",
+        "description": "There was no offer found that matches the required criteria.",
+        "mitigation": ""
+    },
+    "0XC1900214": {
+        "message": "MOSETUP_E_UNSUPPORTED_VERSION",
+        "description": "This version of the tool is not supported.",
+        "mitigation": ""
+    },
+    "0XC1900215": {
+        "message": "MOSETUP_E_NO_MATCHING_INSTALL_IMAGE",
+        "description": "Could not find an install image for this system.",
+        "mitigation": ""
+    },
+    "0XC1900216": {
+        "message": "MOSETUP_E_ROLLBACK_PENDING",
+        "description": "Found pending OS rollback operation.",
+        "mitigation": ""
+    },
+    "0XC1900220": {
+        "message": "MOSETUP_E_COMPAT_REPORT_NOT_DISPLAYED",
+        "description": "The compatibility report cannot be displayed due to a missing system component.",
+        "mitigation": ""
+    },
+    "0XC1900400": {
+        "message": "MOSETUP_E_UA_VERSION_MISMATCH",
+        "description": "An unexpected version of Update Agent client was encountered.",
+        "mitigation": ""
+    },
+    "0XC1900401": {
+        "message": "MOSETUP_E_UA_NO_PACKAGES_TO_DOWNLOAD",
+        "description": "No packages to be downloaded.",
+        "mitigation": ""
+    },
+    "0XC1900402": {
+        "message": "MOSETUP_E_UA_UPDATE_CANNOT_BE_MERGED",
+        "description": "No packages to be downloaded.",
+        "mitigation": ""
+    },
+    "0XC1900403": {
+        "message": "MOSETUP_E_UA_CORRUPT_PAYLOAD_FILES",
+        "description": "Payload files were corrupt.",
+        "mitigation": ""
+    },
+    "0XC1900404": {
+        "message": "MOSETUP_E_UA_BOX_NOT_FOUND",
+        "description": "The installation executable was not found.",
+        "mitigation": ""
+    },
+    "0XC1900405": {
+        "message": "MOSETUP_E_UA_BOX_CRASHED",
+        "description": "The installation process terminated unexpectedly.",
+        "mitigation": ""
+    }
+}

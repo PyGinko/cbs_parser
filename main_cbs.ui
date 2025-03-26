@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>859</width>
-    <height>860</height>
+    <width>598</width>
+    <height>682</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -54,7 +54,63 @@ background-color: rgb(92, 114, 133);
        <property name="bottomMargin">
         <number>9</number>
        </property>
-       <item row="3" column="0">
+       <item row="0" column="0">
+        <widget class="QWidget" name="fileWidget" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>24</height>
+          </size>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QPushButton" name="loadLogButton">
+            <property name="minimumSize">
+             <size>
+              <width>124</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>124</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Open CBS File</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="pathLine">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="placeholderText">
+             <string>File path...</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="2" column="0">
         <widget class="QWidget" name="contentWidget" native="true">
          <layout class="QVBoxLayout" name="verticalLayout">
           <property name="leftMargin">
@@ -80,6 +136,12 @@ background-color: rgb(92, 114, 133);
           </item>
           <item>
            <widget class="QTableWidget" name="logTableWidget">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="MinimumExpanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
             <row/>
             <row/>
             <column>
@@ -100,6 +162,34 @@ background-color: rgb(92, 114, 133);
            </widget>
           </item>
           <item>
+           <widget class="QLabel" name="descriptionLabel">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Error Description:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTextEdit" name="descriptionText">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>99</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
            <widget class="QLabel" name="fixLabel">
             <property name="font">
              <font>
@@ -107,15 +197,28 @@ background-color: rgb(92, 114, 133);
              </font>
             </property>
             <property name="text">
-             <string>Suggestions:</string>
+             <string>Suggestions and Fixes:</string>
             </property>
            </widget>
           </item>
           <item>
-           <widget class="QTextEdit" name="fixText"/>
+           <widget class="QTextEdit" name="fixText">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>198</height>
+             </size>
+            </property>
+           </widget>
           </item>
           <item>
-           <widget class="QWidget" name="widget" native="true">
+           <widget class="QWidget" name="fixWidget" native="true">
             <property name="minimumSize">
              <size>
               <width>0</width>
@@ -176,7 +279,7 @@ background-color: rgb(92, 114, 133);
            </widget>
           </item>
           <item>
-           <widget class="QWidget" name="widget_2" native="true">
+           <widget class="QWidget" name="optionsWidget" native="true">
             <property name="minimumSize">
              <size>
               <width>0</width>
@@ -210,7 +313,7 @@ background-color: rgb(92, 114, 133);
               </spacer>
              </item>
              <item>
-              <widget class="QPushButton" name="openDocumentationButton_2">
+              <widget class="QPushButton" name="openDocumentationButton">
                <property name="minimumSize">
                 <size>
                  <width>124</width>
@@ -234,7 +337,7 @@ background-color: rgb(92, 114, 133);
               </widget>
              </item>
              <item>
-              <widget class="QPushButton" name="showLoggingButton_2">
+              <widget class="QPushButton" name="showLoggingButton">
                <property name="minimumSize">
                 <size>
                  <width>124</width>
@@ -259,102 +362,6 @@ background-color: rgb(92, 114, 133);
              </item>
             </layout>
            </widget>
-          </item>
-         </layout>
-        </widget>
-       </item>
-       <item row="0" column="0">
-        <widget class="QWidget" name="headerWidget" native="true">
-         <property name="maximumSize">
-          <size>
-           <width>16777215</width>
-           <height>26</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgba(0, 0, 0, 0);</string>
-         </property>
-         <layout class="QGridLayout" name="gridLayout_4">
-          <property name="leftMargin">
-           <number>0</number>
-          </property>
-          <property name="topMargin">
-           <number>0</number>
-          </property>
-          <property name="rightMargin">
-           <number>0</number>
-          </property>
-          <property name="bottomMargin">
-           <number>0</number>
-          </property>
-         </layout>
-        </widget>
-       </item>
-       <item row="1" column="0">
-        <widget class="QWidget" name="widget_3" native="true">
-         <property name="minimumSize">
-          <size>
-           <width>0</width>
-           <height>24</height>
-          </size>
-         </property>
-         <layout class="QHBoxLayout" name="horizontalLayout_3">
-          <property name="leftMargin">
-           <number>0</number>
-          </property>
-          <property name="topMargin">
-           <number>0</number>
-          </property>
-          <property name="rightMargin">
-           <number>0</number>
-          </property>
-          <property name="bottomMargin">
-           <number>0</number>
-          </property>
-          <item>
-           <widget class="QPushButton" name="loadLogButton">
-            <property name="minimumSize">
-             <size>
-              <width>124</width>
-              <height>24</height>
-             </size>
-            </property>
-            <property name="maximumSize">
-             <size>
-              <width>124</width>
-              <height>24</height>
-             </size>
-            </property>
-            <property name="text">
-             <string>Open CBS File</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLineEdit" name="pathLine">
-            <property name="text">
-             <string/>
-            </property>
-            <property name="readOnly">
-             <bool>true</bool>
-            </property>
-            <property name="placeholderText">
-             <string>File path...</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <spacer name="horizontalSpacer_3">
-            <property name="orientation">
-             <enum>Qt::Orientation::Horizontal</enum>
-            </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>40</width>
-              <height>20</height>
-             </size>
-            </property>
-           </spacer>
           </item>
          </layout>
         </widget>

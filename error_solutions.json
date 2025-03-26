@@ -1,4 +1,0 @@
-{
-    "0x80070013": "Run: dism /online /cleanup-image /restorehealth",
-    "0x80070002": "Delete SoftwareDistribution folder and restart Windows Update service"
-}
